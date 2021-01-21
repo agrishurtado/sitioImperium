@@ -5,7 +5,7 @@
 @import url(info.css);
 @import url(skills.css);
 @import url(experience.css);
-)
+
 
 *{
     margin: 0;
@@ -88,4 +88,14 @@ footer .contenedor{
     }
 }
 
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.circle:nth-of-type(1) {
+    background: blue;
+}
 
