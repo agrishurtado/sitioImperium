@@ -1,0 +1,44 @@
+#experience {
+    background: whitesmoke;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+#experience .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience-tec{
+    margin: 60px;
+}
+
+.experience-tec img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    border: 7px solid #0b85aaea;
+
+}
+
+@media (min-width: 720px){
+    .experience-tec{
+        width: 60%;
+    }
+}
+
+@media (min-width: 480px){
+    .experience-tec{
+        width: 10%;
+    }
+}
+
+@media (min-width: 1024px){
+    .experience-tec{
+        width: 10%;
+    }
+
+    
+}

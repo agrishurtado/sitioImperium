@@ -3,6 +3,9 @@
 @import url(banner.css);
 @import url(blog.css);
 @import url(info.css);
+@import url(skills.css);
+@import url(experience.css);
+)
 
 *{
     margin: 0;
