@@ -4,10 +4,10 @@
 }
 
 #banner .img{
-    /* width: 100%;
-    height: 100%; */
-    width: 700px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    /* width: 700px;
+    height: 300px; */
     margin: auto;
 
     background-size: 100% 100%;
@@ -19,9 +19,9 @@
 
 #banner .contenedor{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-40%);
 }
 
 #banner h2{
