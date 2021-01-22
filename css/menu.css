@@ -19,6 +19,9 @@ header label{
     transition: all 0.5s;
     transform:  translateX(-100%);
 }
+.icon-menu{
+color: whitesmoke;
+}
 
 .menu a {
     display: block;
