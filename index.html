@@ -6,8 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/iframe.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     
 </head>
@@ -29,62 +29,15 @@
         <section id="banner">
             <div class="img">
             <div class="contenedor">
-                <span class="circle" ></span>
-
-                <script>
-                    let tl = gsap.timeline();
-                    tl.from('#logo', {
-                    duration: 2,
-                    rotate: 360});
-                    tl.addLabel('label1', "+=1");
-                    tl.from('.circle', {
-                    duration: .2,
-                    scale: 0,
-                    stagger: .5
-                    }, '+=1');
+                <span class="circle"></span>
+                <script src="script.js">
                 </script>
+                
             </div>
         </div>
         </section>
 
-        <section id="Bienvenidos">
-            <h2>Bienvenido</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est obcaecati, nam harum autem libero quo amet esse alias optio, voluptatem distinctio omnis velit laboriosam ad sunt iste ipsa, possimus voluptatum?</p>
-        </section>
-
-        <section id="blog">
-            <h3>Lo ultimo denuestro blog</h3>
-            <div class="contenedor">
-                <article>
-                    <img src="imag/1.png" alt="">
-                    <h4>Soporte tecnico Proactivo</h4>
-                </article>
-                <article>
-                    <img src="imag/flyer.jpeg" alt="">
-                    <h4>Promociones</h4>
-                </article>
-                <article>
-                    <img src="imag/im.jpeg" alt="">
-                    <h4>CCTV</h4>
-                </article>
-                <article>
-                    <img src="imag/25778838-resumen-turquesa-brillante-de-fondo-negro.jpg" alt="">
-                    <h4>CCTV</h4>
-                </article>
-                <article>
-                    <img src="imag/25841402-resumen-turquesa-brillante-de-fondo-negro.jpg" alt="">
-                    <h4>CCTV</h4>                  
-                </article>
-                <article>
-                    <img src="imag/imperium.png" alt="">
-                    <h4>CCTV</h4>
-                </article>
-                <article>
-                    <img src="imag/linux.png" alt="">
-                    <h4>CCTV</h4>
-                </article>
-            </div>
-        </section>
+        <iframe src="seccionBienvenidos.html" ></iframe>
 
         <section id="skills">
             <h3>Sikillset</h3>
@@ -195,26 +148,26 @@
             </div>
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                    <form id="contact-form" class="text-left" role="form">
+                    <form  id="contact-form" class="text-left" role="form">
                         <input type="hidden" name="source" value="Portfolio" />
                         <div class="form-group">
-                            <label for="form-name">Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="form-name" name="name">
+                            <label for="form-name">Name:</label>
+                            <input type="text" class="form-control"  id="form-name" name="name">
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="form-email">Email</label>
-                            <input type="email" class="form-control" placeholder="Email" id="form-email" name="email">
+                            <label for="form-email">Email:</label>
+                            <input type="email" class="form-control" id="form-email" name="email">
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="form-phone">Phone</label>
-                            <input type="tel" class="form-control" placeholder="Phone" id="form-phone" name="phone">
+                            <label for="form-phone">Phone:</label>
+                            <input type="tel" class="form-control"  id="form-phone" name="phone">
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="form-message">Message</label>
-                            <textarea rows="1" class="form-control" placeholder="Message" id="form-message" name="message"></textarea>
+                            <label for="form-message">Message:</label>
+                            <textarea class="form-control"  id="form-message" name="message"></textarea>
                         </div>
                         <hr>
                       
@@ -231,13 +184,9 @@
 
     <footer>
         <div class="contenedor">
-            <p class="copy">Mis tecnologias &copy; 2021</p>
-            <div class="socilaes">
-                <a class="icon-facebook" href="#"></a>
-                <a class="icon-instagram" href="#"></a>
-                <a class="icon-twitter" href="#"></a>
-                <a class="icon-googleplus" href="#"></a>
-            </div>
+            <p class="copy">
+                Developed and designed by <a href="#:">Imperio Technology Systems</a> &copy; 2021. All rights reserved</p>
+            
         </div>
     </footer>
 </body>
