@@ -13,12 +13,17 @@
     max-width: 100%;
 }
 
+.contenedor h2, p{
+    color: whitesmoke;
+}
+
 video {
   display: inline-block;
   vertical-align: baseline;
 }
 
-  #bg-video {      
+  #bg-video {    
+        
     opacity: 0.5;
     position: absolute;
     top: 50%;

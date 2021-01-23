@@ -38,6 +38,20 @@ h1{
     float: left;
 }
 
+h2, h3{
+    font-size: 45px;
+}
+
+hr{
+    width: 90%;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
 header .contenedor{
     display: table;
 }
@@ -83,6 +97,8 @@ footer .contenedor{
     color: #333;
     text-decoration: none;
 }
+
+
 
 @media (min-width: 768px){
     .sociales{
