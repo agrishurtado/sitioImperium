@@ -117,3 +117,58 @@ footer .contenedor{
 }
 
 
+@media (min-width:420px){
+  h1{
+      display: none;
+  }
+    header {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 90px;
+        }
+
+      
+}
+
+
+/* @media (min-width:375px){
+    h1{
+        font-size: 15px;
+    }
+      header {
+          width: 375px;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90px;
+          }
+  
+          label{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: left;
+          }
+  }
+/* 
+ 
+  @media (min-width:414px){
+    h1{
+        font-size: 15px;
+    }
+    header .contenedor{
+        width: 100%;
+    }
+      header {
+          width: 414px;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90px;
+          }
+  
+          label{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: left;
+          }
+  } */
+
