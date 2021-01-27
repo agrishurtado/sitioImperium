@@ -132,7 +132,7 @@ footer .contenedor{
 }
 
 
-/* @media (min-width:375px){
+@media (min-width:375px){
     h1{
         font-size: 15px;
     }
@@ -149,8 +149,6 @@ footer .contenedor{
               justify-content: left;
           }
   }
-/* 
- 
   @media (min-width:414px){
     h1{
         font-size: 15px;
@@ -170,5 +168,5 @@ footer .contenedor{
               flex-wrap: wrap;
               justify-content: left;
           }
-  } */
+  }
 
