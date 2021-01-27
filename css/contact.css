@@ -8,6 +8,12 @@
     background: whitesmoke;
 }
 
+.col-xs-12 h2{
+    display: flex;
+justify-content: center;
+
+}
+
 label{
     color: #333;
     font-size: 30px;

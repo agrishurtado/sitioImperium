@@ -38,6 +38,20 @@ h1{
     float: left;
 }
 
+h2, h3{
+    font-size: 45px;
+}
+
+hr{
+    width: 90%;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
 header .contenedor{
     display: table;
 }
@@ -83,6 +97,8 @@ footer .contenedor{
     color: #333;
     text-decoration: none;
 }
+
+
 
 @media (min-width: 768px){
     .sociales{
@@ -142,3 +158,58 @@ footer .contenedor{
     left: 45.3%;
     top: 130px;
 }
+@media (min-width:420px){
+  h1{
+      display: none;
+  }
+    header {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 90px;
+        }
+
+      
+}
+
+
+/* @media (min-width:375px){
+    h1{
+        font-size: 15px;
+    }
+      header {
+          width: 375px;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90px;
+          }
+  
+          label{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: left;
+          }
+  }
+/* 
+ 
+  @media (min-width:414px){
+    h1{
+        font-size: 15px;
+    }
+    header .contenedor{
+        width: 100%;
+    }
+      header {
+          width: 414px;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90px;
+          }
+  
+          label{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: left;
+          }
+  } */
+
