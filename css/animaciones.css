@@ -12,10 +12,10 @@
 #log{
     display: inline-block;
     width: 95px;
-    height: 95px;
+    height: 50px;
     position: absolute;
     left: 45.3%;
-    top: 130px;
+    bottom: 25px;
 }
 
 #logjs{
@@ -25,7 +25,7 @@
     height: 95px;
     position: absolute;
     left: 45.3%;
-    top: 130px;
+    bottom: -10px;
 }
 
 #logjs2{
@@ -35,6 +35,6 @@
     height: 95px;
     position: absolute;
     left: 45.3%;
-    top: 130px;
+    bottom: -10px;
 }
 
