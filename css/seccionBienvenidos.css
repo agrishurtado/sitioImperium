@@ -1,25 +1,46 @@
 header .contenedor{
     display: table;
+    padding-top: 0;
 }
 
 section { 
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 #Bienvenidos{
-    text-align: center;
+  text-align: center;
+
+}
+#bienvenidos h2,p{
+    color: #333;
 }
 
 
-footer .bienvenidos{
-    /* display: flex; */
+
+
+@media (max-width: 768px){
+    section { 
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #bienvenidos{
+        margin-top: 0;
+    }
+
+    #bienvenidos h2,p{
+        color: #333;
+    }
+
+    footer .bienvenidos{
+        /* display: flex; */
+        
+        flex-wrap: wrap;
+        /* padding-bottom: 10px; */
+        background: rgb(255, 255, 255);
+        width: 100%;
+        left: 50%;
     
-    flex-wrap: wrap;
-    padding-bottom: 55px;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    left: 50%;
-
+    }
 }
-

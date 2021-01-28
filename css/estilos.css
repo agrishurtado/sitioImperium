@@ -32,7 +32,7 @@ header{
 
 
 .contenedor{
-    width: 98%;
+    width: 100%;
     margin: auto;
 }
 
@@ -89,6 +89,7 @@ footer .contenedor{
 }
 
 @media (min-width: 768px){
+  
     .sociales{
         width: auto;
     }
@@ -99,7 +100,7 @@ footer .contenedor{
 }
 
 @media (min-width: 1024px){
-    .contenedor{
+       .contenedor{
         width: 1000px;
     }
 }

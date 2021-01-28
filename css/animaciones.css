@@ -40,3 +40,85 @@
     bottom: -10px;
 }
 
+@media (max-width: 768px){
+    .circle {
+        display: inline-block;
+        border-radius: 15%;
+        width: 70px;
+        height: 40px;
+        position: absolute;
+        left: 48.5%;
+        bottom: 10%;
+        background: black;
+    }
+    #log{
+        display: inline-block;
+        width: 45px;
+        height: 20px;
+        position: absolute;
+        left: 52.3%;
+        bottom: 11px;
+    }
+    #logjs{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 52.3%;
+        bottom: -10px;
+    }
+    #logjs2{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .circle {
+        display: inline-block;
+        border-radius: 15%;
+        width: 70px;
+        height: 40px;
+        position: absolute;
+        left: 48.5%;
+        bottom: 10%;
+        background: black;
+    }
+    #log{
+        display: inline-block;
+        width: 45px;
+        height: 20px;
+        position: absolute;
+        left: 50.8%;
+        bottom: 11px;
+    }
+    #logjs{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 52.3%;
+        bottom: -10px;
+    }
+    #logjs2{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+}
