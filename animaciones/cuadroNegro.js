@@ -3,7 +3,7 @@ tl.from('#logo', {
     duration: 1, 
     rotate: 360});
                 
-tl.addLabel('label1', "+=1");
+tl.addLabel('label1', "-=1");
     tl.from('.circle', {
     duration: .8, 
     scale: 0, 

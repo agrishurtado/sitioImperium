@@ -22,6 +22,7 @@
 }
 
 #logjs{
+    opacity: 0;
     display: inline-block;
     border-radius: 30%;
     width: 95px;
@@ -32,6 +33,7 @@
 }
 
 #logjs2{
+    scale: 0;
     display: inline-block;
     border-radius: 30%;
     width: 95px;
