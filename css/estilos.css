@@ -19,6 +19,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    width: 100%;
+}
+
 header{
     width: 100%;
     height: 60px;
@@ -88,8 +92,17 @@ footer .contenedor{
     text-decoration: none;
 }
 
-@media (min-width: 768px){
-  
+@media only screen and (min-width: 20px) and (max-width: 320px){
+    main{
+        width: 103%;
+    }
+}
+
+
+@media only screen and (min-width: 20px) and (max-width: 768px){
+    main{
+        width: 101%;
+    }
     .sociales{
         width: auto;
     }
@@ -99,11 +112,11 @@ footer .contenedor{
     }
 }
 
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
        .contenedor{
-        width: 1000px;
+        width: 1000%;
     }
-}
+} */
 
 
 

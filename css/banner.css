@@ -74,7 +74,7 @@ video {
 }
 
 
-@media (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 940px){
     h1{
         padding-top: 20px;
         font-size: 100%;
@@ -89,10 +89,59 @@ video {
         max-width: 1%;
     }
     #banner .contenedor{
+        width: 600px;
         position: absolute;
         top: 50%;
         left: 40%;
         transform: translateX(-50%) translateY(-100%);
+    }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px){
+    h1{
+        padding-top: 20px;
+        font-size: 100%;
+    }
+    #bg-video {    
+        
+        opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        max-width: 1%;
+    }
+    #banner .contenedor{
+        width: 200px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateX(-20%) translateY(-100%);
+    }
+
+}
+
+@media only screen and (min-width: 20px) and (max-width: 399px){
+    h1{
+        padding-top: 20px;
+        font-size: 100%;
+    }
+    #bg-video {    
+        
+        opacity: 0.5;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        max-width: 1%;
+    }
+    #banner .contenedor{
+        width: 30px;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        transform: translateX(400%) translateY(0%);
     }
 
 }

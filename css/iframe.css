@@ -1,10 +1,5 @@
 
-    iframe{
-        padding: 0px;
-        margin-top: 0%;
-       
-    }
-    
+   
 
   @media (max-width: 768px){
     iframe{
@@ -13,5 +8,15 @@
         width: 94%;
         max-width: 100%;
         max-height: 60%;
+    }
+}
+
+@media  (max-width: 1024px) {
+    iframe{
+        padding-top: 0;
+        /* margin: 10px; */
+        width: 100%;
+        /* max-width: 100%; */
+        /* max-height: 0%; */
     }
 }
