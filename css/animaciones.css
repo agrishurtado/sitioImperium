@@ -40,6 +40,40 @@
     bottom: -10px;
 }
 
+#node{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#html{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#ts{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+
 @media (max-width: 768px){
     .circle {
         display: inline-block;
@@ -79,6 +113,39 @@
         left: 62.3%;
         bottom: -10px;
     }
+
+    #html{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+    #node{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+
+    #ts{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+    
 }
 
 
@@ -121,4 +188,36 @@
         left: 62.3%;
         bottom: -10px;
     }
+    #node{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+
+    #ts{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+    }
+
+    #html{
+        opacity: 0;
+        display: inline-block;
+        border-radius: 30%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 62.3%;
+        bottom: -10px;
+}
 }
