@@ -51,7 +51,61 @@
     bottom: -10px;
 }
 
-#html{
+#react{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#skill{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#angular{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+#css{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#git{
+    opacity: 0;
+    display: inline-block;
+    border-radius: 30%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 45.3%;
+    bottom: -10px;
+}
+
+#per{
     opacity: 0;
     display: inline-block;
     border-radius: 30%;
