@@ -1,0 +1,12 @@
+body{
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#intro{ 
+    transform: translateY(30%);
+    width: 1200px;
+    height: 600px;    
+}

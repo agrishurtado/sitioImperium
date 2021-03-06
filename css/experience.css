@@ -4,6 +4,9 @@
     text-align: center;
     padding: 20px;
 }
+#experience h4{
+    text-align: center;
+}
 
 #experience .contenedor{
     display: flex;

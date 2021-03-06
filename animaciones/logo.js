@@ -7,3 +7,4 @@ tp.from('#log', {
     ease: 'elastic.out(1, 0.9)',
     delay: 2})
 
+ 
