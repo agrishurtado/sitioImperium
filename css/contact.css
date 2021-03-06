@@ -37,7 +37,18 @@ margin: 30px;
 }
 
 textarea{
-    bottom: 5px solid #333;
     height: 100%;
-    transform: translateX(40%);
+    transform: translateX(5%);
+}
+button{
+    position: absolute;
+    left: 45%;
+    margin: 45px;
+    color: #0b85aaea;
+    background: none;
+    width: 120px;
+    font-size: large;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #0b85aaea;
 }
