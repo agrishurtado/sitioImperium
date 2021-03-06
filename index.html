@@ -18,10 +18,10 @@
             <input type="checkbox" id="menu-bar">
             <label class="icon-menu" for="menu-bar"></label>
             <nav class="menu">
-                <a class="a" href="">Inicio</a>
-                <a href="">Servicios</a>
-                <a href="">blog</a>
-                <a href="contacto.html">Contacto</a>
+                <a class="a" href="#banner">Inicio</a>
+                <a href="#Skills">Servicios</a>
+                <a href="#blog">blog</a>
+                <a href="#contact">Contacto</a>
             </nav>
         </div>
     </header>
@@ -67,9 +67,10 @@
                 
             </section>
     
-            <section id="blog">
-                <h3>Desarrollo de Software, Apps, <br> Sitios Web o lo que necites</h3>
+            <section id="blog">                
                 <div class="contenedor">
+                    <h3>Desarrollo de Software, Apps, <br> Sitios Web o lo que necites</h3>
+                <hr>
                     <article>
                         <img src="imag/1.png" alt="">
                         <h4>Soporte tecnico Proactivo</h4>
@@ -217,6 +218,7 @@
     </main>
 
     <section id="contact"  class="even section">
+       
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
@@ -228,43 +230,52 @@
             </div>
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                    <form  id="contact-form" class="text-left" role="form">
+                    <!-- <form  id="contact-form" class="text-left" role="form"  action="mailto: imperiumtechsys@gmail.com" method="post"> -->
+                    <form  id="contact-form" class="text-left" role="form" method="post" action="correo.php">
+
                         <input type="hidden" name="source" value="Portfolio" />
                         <div class="form-group">
+                            <label for="form-name">Asunto:</label>
+                            <input type="text" class="form-control"  id="form-name" name="asunto"  ><br>
+                        </div>
+                        <div class="hr">
+                            <hr>
+                        </div>
+                        <div class="form-group">
                             <label for="form-name">Name:</label>
-                            <input type="text" class="form-control"  id="form-name" name="name">
+                            <input type="text" class="form-control"  id="form-name" name="name"><br>
                         </div>
                         <div class="hr">
                             <hr>
                         </div>
                         <div class="form-group">
                             <label for="form-email">Email:</label>
-                            <input type="email" class="form-control" id="form-email" name="email">
+                            <input type="email" class="form-control" id="form-email" name="email"><br>
                         </div>
                         <div class="hr">
                             <hr>
                         </div>
                         <div class="form-group">
                             <label for="form-phone">Phone:</label>
-                            <input type="tel" class="form-control"  id="form-phone" name="phone">
+                            <input type="tel" class="form-control"  id="form-phone" name="phone"><br>
                         </div>
                         <div class="hr">
                             <hr>
                         </div>
                         <div class="form-group">
                             <label for="form-message">Message:</label>
-                            <textarea class="form-control"  id="form-message" name="message"></textarea>
+                            <textarea class="form-control"  id="form-message" name="message" placeholder="Ingresa el motivo de tu visita o duda"></textarea><br>
                         </div>
                         <div class="hr">
                             <hr>
                         </div>
-                      
+                        <button type="submit">Enviar</button>
+
                         
                 </div>
                 </form>
             </div>
-        </div>
-       
+        </div>       
         </div>
     </section>
 
